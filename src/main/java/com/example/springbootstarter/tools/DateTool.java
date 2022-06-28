@@ -10,4 +10,8 @@ public class DateTool {
     public static String getDate() {
         return sdf.format(date);
     }
+
+    public static String getDayData() {
+        return sdf.format(date).substring(3, 5);
+    }
 }
