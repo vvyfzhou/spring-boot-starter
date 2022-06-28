@@ -9,6 +9,7 @@ public class JavaConfig implements ImportSelector {
     @Override
     public String[] selectImports(AnnotationMetadata annotationMetadata) {
         System.out.println("init");
+        System.out.println("init");
         return new String[]{"com.example.springbootstarter.common.HelloWorld"};
     }
 }
