@@ -13,6 +13,7 @@ public class SpringBootStarterApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootStarterApplication.class, args);
         JavaConfig jc = new JavaConfig();
+        System.out.println("1");
     }
 
 }
